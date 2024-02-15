@@ -1,0 +1,305 @@
+@import url(./variables.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #EDF3F8;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 135px;
+    height: 38px;
+    top: 5px;
+    padding: 0px, 0.34px, 0px, 0px;
+}
+
+.nav_wrapper {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 600px;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+li {
+    width: 51px;
+    height: 18px;
+    top: 16px;
+    left: 664px;
+    opacity: 0.7px;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #36536B;
+}
+
+.btn1 {
+    width: 173px;
+    height: 48px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    border: none;
+    border-radius: 25px;
+    margin-left: 25px;
+    color: #fff;
+    margin-top: -15px;
+}
+
+.header {
+    display: flex;
+    background-color: #EDF3F8;
+}
+
+.left_h1 {
+    width: 546px;
+    height: 243px;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    text-align: left;
+    color: #36536B;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.phone {
+    width: 300px;
+    height: 500px;
+    top: 146px;
+    left: 929px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.head_main {
+    height: 472px;
+    background-color: #1B262F;
+    display: flex;
+}
+
+.leftmain_h1 {
+    width: 445px;
+    height: 56px;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.leftmain_p {
+    width: 445px;
+    height: 112px;
+    top: 80px;
+    opacity: 0.7px;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.btn2 {
+    width: 129px;
+    height: 48px;
+    top: 1061px;
+    left: 165px;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: center;
+    color: #fff;
+    background-color: #1B262F;
+    border-radius: 30px;
+    border: 1px solid #FBFCFE;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.cars{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+
+    nav {
+        width: 650px;
+        background-color: #EDF3F8;
+        padding-top: 20px;
+    }
+    
+    .logo {
+        width: 135px;
+        height: 38px;
+        top: 5px;
+        padding: 0px, 0.34px, 0px, 0px;
+    }
+    
+    .nav_wrapper {
+        display: flex;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        margin-left: 600px;
+        gap: 20px;
+        padding-top: 5px;
+        margin-left: 64px;
+    }
+    
+    li {
+        width: 51px;
+        height: 18px;
+        top: 16px;
+        left: 664px;
+        opacity: 0.7px;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #36536B;
+    }
+    
+    .btn1 {
+        width: 173px;
+        height: 48px;
+        background: #BA4270;
+        box-shadow: 10px 10px 25px -10px #36536B40;
+        border: none;
+        border-radius: 25px;
+        margin-left: 25px;
+        color: #fff;
+        margin-top: -15px;
+        margin-left: 20px;
+    }
+    
+    .phone {
+        width: 159px;
+        height: 300px;
+        top: 146px;
+        left: 929px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    
+    
+    .left_h1 {
+        width: 573px;
+        height: 122px;
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.5538461804389954px;
+        text-align: left;
+        color: #36536B;
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+
+
+    .cars{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+    .leftmain_h1 {
+        width: 457px;
+        height: 56px;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: left;
+        color: #fff;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    
+    .leftmain_p {
+        width: 456px;
+        height: 112px;
+        top: 80px;
+        opacity: 0.7px;
+        color: #fff;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    
+    .btn2 {
+        width: 129px;
+        height: 48px;
+        top: 1061px;
+        left: 165px;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.11538461595773697px;
+        text-align: center;
+        color: #fff;
+        background-color: #1B262F;
+        border-radius: 30px;
+        border: 1px solid #FBFCFE;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    
+   
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+   
+}
